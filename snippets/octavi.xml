@@ -125,7 +125,7 @@
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="octavi" />
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="octavi" />
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="octavi" />
-  <project path="device/octavi/sepolicy" name="platform_device_octavi_sepolicy" remote="octavi" />
+  <project path="device/octavi/sepolicy" name="darklightnest/platform_device_octavi_sepolicy" remote="github" revision="11" clone-depth="1" />
 
   <!-- Vendor -->
   <project path="vendor/octavi" name="darklightnest/platform_vendor_octavi" remote="github" revision="11" clone-depth="1" />
