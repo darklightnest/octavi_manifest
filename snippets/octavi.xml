@@ -21,7 +21,7 @@
  <!-- Octavi Repos -->
 
   <project name="platform_bionic" path="bionic" remote="octavi" />
-  <project name="platform_build_make" path="build/make" remote="octavi" >
+  <project name="darklightnest/build_make-octavi" path="build/make" remote="github" revision="11" clone-depth="1" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -57,7 +57,7 @@
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="octavi" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="octavi" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="octavi" />
+  <project path="frameworks/base" name="darklightnest/platform_frameworks_base-octavi" remote="github" revision="11" clone-depth="1" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="octavi" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="octavi" />
   <project path="frameworks/libs/systemui" name="platform_frameworks_libs_systemui" remote="octavi" />
@@ -79,6 +79,7 @@
   <project path="hardware/octavi/interfaces" name="platform_hardware_octavi_interfaces" remote="octavi" />
 
   <!-- Packages -->
+  <project path="packages/apps/OmniSwitch" name="darklightnest/packages_apps_OmniSwitch" remote="github" revision="11.0" clone-depth="1" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="octavi" />
   <project path="packages/apps/CustomDoze" name="platform_packages_apps_CustomDoze" remote="octavi" />
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="octavi" />
@@ -88,9 +89,9 @@
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="octavi" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="octavi" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="octavi" />
-  <project path="packages/apps/OctaviLab" name="platform_packages_apps_OctaviLab" remote="octavi" />
+  <project path="packages/apps/OctaviLab" name="darklightnest/platform_packages_apps_OctaviLab" remote="github" revision="11" clone-depth="1" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="octavi" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="octavi" />
+  <project path="packages/apps/Settings" name="darklightnest/platform_packages_apps_Settings-octavi" remote="github" revision="11" clone-depth="1" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="octavi" />
   <project path="packages/apps/SoftAPManager" name="platform_packages_apps_SoftAPManager" remote="octavi" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="octavi" />
@@ -127,7 +128,7 @@
   <project path="device/octavi/sepolicy" name="platform_device_octavi_sepolicy" remote="octavi" />
 
   <!-- Vendor -->
-  <project path="vendor/octavi" name="platform_vendor_octavi" remote="octavi" />
+  <project path="vendor/octavi" name="darklightnest/platform_vendor_octavi" remote="github" revision="11" clone-depth="1" />
   <project path="vendor/support" name="platform_vendor_support" remote="octavi" />
   <project path="vendor/gapps" name="vendor_gapps" clone-depth="1" remote="sagar-gitlab" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="octavi" />
